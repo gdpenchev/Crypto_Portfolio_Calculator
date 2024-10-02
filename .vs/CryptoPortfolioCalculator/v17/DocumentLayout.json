@@ -1,0 +1,388 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\wwwroot\\js\\portfolioupdatescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\wwwroot\\js\\portfolioupdatescript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\services\\coinapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\services\\coinapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\views\\portfolio\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\views\\portfolio\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\models\\coinresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\models\\coinresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\models\\portfoliocoininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\models\\portfoliocoininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\models\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\models\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\services\\customloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\services\\customloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\services\\icustomloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\services\\icustomloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|c:\\users\\kashona\\source\\repos\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator\\cryptoportfoliocalculator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E102E627-2E58-4F42-BA52-DF9E0EACA32C}|CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj|solutionrelative:cryptoportfoliocalculator\\cryptoportfoliocalculator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PortfolioUpdateScript.js",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\wwwroot\\js\\PortfolioUpdateScript.js",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\wwwroot\\js\\PortfolioUpdateScript.js",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\wwwroot\\js\\PortfolioUpdateScript.js",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\wwwroot\\js\\PortfolioUpdateScript.js",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-02T06:11:36.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoinApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Services\\CoinApiService.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Services\\CoinApiService.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Services\\CoinApiService.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Services\\CoinApiService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T06:09:06.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PortfolioService.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Services\\PortfolioService.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Services\\PortfolioService.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Services\\PortfolioService.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Services\\PortfolioService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAApwDAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T18:57:56.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T15:38:56.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T11:42:27.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T15:24:32.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T15:26:03.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T14:55:41.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Portfolio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Portfolio\\Portfolio.cshtml",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Views\\Portfolio\\Portfolio.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Portfolio\\Portfolio.cshtml",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Views\\Portfolio\\Portfolio.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T14:58:08.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Controllers\\PortfolioController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwC4AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:42:35.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T19:10:39.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PortfolioCoinInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Models\\PortfolioCoinInfo.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Models\\PortfolioCoinInfo.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Models\\PortfolioCoinInfo.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Models\\PortfolioCoinInfo.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:32:54.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T16:10:40.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T15:05:08.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CoinResult.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Models\\CoinResult.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Models\\CoinResult.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Models\\CoinResult.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Models\\CoinResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:21:50.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Coin.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Models\\Coin.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Models\\Coin.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Models\\Coin.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Models\\Coin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:22:01.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICustomLoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Services\\ICustomLoggerService.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Services\\ICustomLoggerService.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Services\\ICustomLoggerService.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Services\\ICustomLoggerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:49:26.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomLoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Services\\CustomLoggerService.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Services\\CustomLoggerService.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Services\\CustomLoggerService.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Services\\CustomLoggerService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwAQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:52:52.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Program.cs",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Program.cs",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Program.cs",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T15:14:28.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-30T19:35:54.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\appsettings.json",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\appsettings.json",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-30T19:10:46.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T11:42:23.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CryptoPortfolioCalculator",
+              "DocumentMoniker": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj",
+              "RelativeDocumentMoniker": "CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj",
+              "ToolTip": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj",
+              "RelativeToolTip": "CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-29T16:08:10.222Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

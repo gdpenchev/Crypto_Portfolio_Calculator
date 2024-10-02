@@ -1,0 +1,42 @@
+﻿@model List<PortfolioCoinInfo>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <h2>Your Portfolio</h2>
+</head>
+<body>
+    <div class="form-group">
+        <label for="refresh-interval">Refresh Interval (Minutes):</label>
+        <input type="number" id="refresh-interval" name="refreshInterval" min="1" value="5" />
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Coin Name</th>
+                <th>Amount Owned</th>
+                <th>Initial Buy Price</th>
+                <th>Current Price</th>
+                <th>Initial Value</th>
+                <th>Current Value</th>
+                <th>Percentage Change</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr data-coin-name="@item.Name">
+                    <td>@item.Name</td>
+                    <td>@item.Amount</td>
+                    <td>@item.InitialBuyPrice</td>
+                    <td class="current-price">@item.CurrentPrice</td>
+                    <td>@item.InitialValue</td>
+                    <td class="current-value">@item.CurrentValue</td>
+                    <td class="percentage-change">@item.PercentageChange %</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <script src="~/js/PortfolioUpdateScript.js"></script>
+</body>
+
+

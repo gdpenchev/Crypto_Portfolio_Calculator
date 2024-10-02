@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Upload Crypto Portfolio";
+}
+@inject IHttpContextAccessor HttpContextAccessor
+
+<h2>Upload Your Crypto Portfolio</h2>
+
+<form method="post" enctype="multipart/form-data" asp-controller="Portfolio" asp-action="UploadFile">
+    <div class="form-group">
+        <label for="UploadedFile">Select Portfolio File (.txt):</label>
+        <input type="file" id="UploadedFile" name="file" accept=".txt" class="form-control" />
+    </div>
+    @if (HttpContextAccessor.HttpContext?.Session.GetString("LogFolder") == null)
+    {
+        <div class="form-group">
+            <label for="logFolder">Specify Log Folder:</label>
+            <input type="text" id="logFolder" name="logFolder" class="form-control" required />
+        </div>
+    }
+    else
+    {
+        <p>Logging folder: @HttpContextAccessor.HttpContext.Session.GetString("LogFolder")</p>
+    }
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
+
