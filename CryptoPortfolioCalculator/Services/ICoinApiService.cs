@@ -4,6 +4,6 @@ namespace CryptoPortfolioCalculator.Services
 {
     public interface ICoinApiService
     {
-        public Task<List<Coin>> GetCoinDataAsync();
+        public Task<List<CoinModel>> GetCoinDataAsync();
     }
 }

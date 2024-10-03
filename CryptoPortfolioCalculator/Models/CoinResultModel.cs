@@ -2,9 +2,9 @@
 
 namespace CryptoPortfolioCalculator.Models
 {
-    public class CoinResult
+    public class CoinResultModel
     {
         [JsonProperty(PropertyName = "data")]
-        public List<Coin> Data { get; set; }
+        public List<CoinModel> Data { get; set; }
     }
 }

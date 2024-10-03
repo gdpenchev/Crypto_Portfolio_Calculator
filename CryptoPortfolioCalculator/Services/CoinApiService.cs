@@ -15,7 +15,7 @@ namespace CryptoPortfolioCalculator.Services
             _httpClient = httpClient;
             _customLoggerService = customLoggerService;
         }
-        public async Task<List<Coin>> GetCoinDataAsync()
+        public async Task<List<CoinModel>> GetCoinDataAsync()
         {
             try
             {
@@ -24,7 +24,7 @@ namespace CryptoPortfolioCalculator.Services
                 if (response.IsSuccessStatusCode)
                 {
                     var jsonData = await response.Content.ReadAsStringAsync();
-                    var result = JsonConvert.DeserializeObject<CoinResult>(jsonData);
+                    var result = JsonConvert.DeserializeObject<CoinResultModel>(jsonData);
 
                     if (result?.Data != null)
                     {
@@ -44,7 +44,7 @@ namespace CryptoPortfolioCalculator.Services
                 _customLoggerService.ErrorLog($"Other problem with API returned exception: {ex.Message}");
                 throw new HttpRequestException("Other problem with API request.");
             }
-            return new List<Coin>();
+            return new List<CoinModel>();
         }
     }
 }

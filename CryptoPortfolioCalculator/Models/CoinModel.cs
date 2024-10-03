@@ -2,7 +2,7 @@
 
 namespace CryptoPortfolioCalculator.Models
 {
-    public class Coin
+    public class CoinModel
     {
         [JsonProperty(PropertyName = "symbol")]
         public string Symbol { get; set; }

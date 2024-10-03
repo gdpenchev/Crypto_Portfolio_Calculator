@@ -4,8 +4,8 @@ namespace CryptoPortfolioCalculator.Services
 {
     public interface IPortfolioService
     {
-        Task<List<PortfolioCoinInfo>> GetCoinInputInfoAsync(IFormFile file);
+        Task<List<PortfolioCoinInfoModel>> GetCoinInputInfoAsync(IFormFile file);
 
-        Task<List<PortfolioCoinInfo>> GetUpdatedCoinPriceInfoAsync(List<PortfolioCoinInfo> serializedPortfolio);
+        Task<List<PortfolioCoinInfoModel>> GetUpdatedCoinPriceInfoAsync(List<PortfolioCoinInfoModel> serializedPortfolio);
     }
 }

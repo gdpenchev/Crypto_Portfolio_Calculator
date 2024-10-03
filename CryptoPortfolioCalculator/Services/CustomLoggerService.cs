@@ -12,7 +12,8 @@ namespace CryptoPortfolioCalculator.Services
         }
         public void ErrorLog(string message)
         {
-            var logFolder = _httpContextAccessor.HttpContext?.Session.GetString("LogFolder");
+            var sessionId = _httpContextAccessor.HttpContext?.Session.Id;
+            var logFolder = _httpContextAccessor.HttpContext?.Session.GetString($"LogFolder_{sessionId}");
 
             if (string.IsNullOrEmpty(logFolder))
             {
@@ -24,7 +25,8 @@ namespace CryptoPortfolioCalculator.Services
 
         public void InfoLog(string message)
         {
-            var logFolder = _httpContextAccessor.HttpContext?.Session.GetString("LogFolder");
+            var sessionId = _httpContextAccessor.HttpContext?.Session.Id;
+            var logFolder = _httpContextAccessor.HttpContext?.Session.GetString($"LogFolder_{sessionId}");
             
             if (string.IsNullOrEmpty(logFolder))
             {

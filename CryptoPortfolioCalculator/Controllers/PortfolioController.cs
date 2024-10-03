@@ -39,7 +39,7 @@ namespace CryptoPortfolioCalculator.Controllers
                         Directory.CreateDirectory(logFolder);
 
                     }
-                    HttpContext.Session.SetString("LogFolder", logFolder);
+                    HttpContext.Session.SetString($"LogFolder_{HttpContext.Session.Id}", logFolder);
                     _loggerService.InfoLog("Log folder set by the user.");
                 }
 
@@ -68,6 +68,7 @@ namespace CryptoPortfolioCalculator.Controllers
         [HttpGet]
         public async Task<IActionResult> GetUpdatedPortfolio()
         {
+            _loggerService.InfoLog("Start updating portfolio with latest info");
             var portfolio = HttpContext.Session.GetString($"porfolio_{HttpContext.Session.Id}");
 
             if (portfolio is null)
@@ -77,7 +78,7 @@ namespace CryptoPortfolioCalculator.Controllers
 
             try
             {
-                var serializedPortfolio = JsonConvert.DeserializeObject<List<PortfolioCoinInfo>>(portfolio);
+                var serializedPortfolio = JsonConvert.DeserializeObject<List<PortfolioCoinInfoModel>>(portfolio);
 
                 _loggerService.InfoLog("Getting latest coin information from API.");
                 var updatedPortfolio = await _portfolioService.GetUpdatedCoinPriceInfoAsync(serializedPortfolio);

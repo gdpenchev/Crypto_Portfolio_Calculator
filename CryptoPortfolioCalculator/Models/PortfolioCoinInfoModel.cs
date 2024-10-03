@@ -1,6 +1,6 @@
 ﻿namespace CryptoPortfolioCalculator.Models
 {
-    public class PortfolioCoinInfo
+    public class PortfolioCoinInfoModel
     {
         public string Name { get; set; }
 
