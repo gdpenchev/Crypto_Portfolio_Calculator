@@ -1,3 +1,4 @@
+using CryptoPortfolioCalculator.CustomErrors;
 using CryptoPortfolioCalculator.Models;
 using CryptoPortfolioCalculator.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -31,19 +32,19 @@ namespace CryptoPortfolioCalculator.Controllers
                 return View("Error", "Please upload a valid file.");
             }
 
-            if (HttpContext.Session.GetString("LogFolder") is null)
-            {
-                if (!Directory.Exists(logFolder))
-                {
-                    Directory.CreateDirectory(logFolder);
-                    
-                }
-                HttpContext.Session.SetString("LogFolder", logFolder);
-                _loggerService.InfoLog("Log folder set by the user.");
-            }
-
             try
             {
+                if (HttpContext.Session.GetString("LogFolder") is null)
+                {
+                    if (!Directory.Exists(logFolder))
+                    {
+                        Directory.CreateDirectory(logFolder);
+
+                    }
+                    HttpContext.Session.SetString("LogFolder", logFolder);
+                    _loggerService.InfoLog("Log folder set by the user.");
+                }
+
                 var portfolioCoins = await _portfolioService.GetCoinInputInfoAsync(file);
 
                 if (portfolioCoins is null || portfolioCoins.Count == 0)
@@ -56,6 +57,10 @@ namespace CryptoPortfolioCalculator.Controllers
                 HttpContext.Session.SetString($"porfolio_{HttpContext.Session.Id}", JsonConvert.SerializeObject(portfolioCoins));
 
                 return View("Portfolio", portfolioCoins);
+            }
+            catch(LoggerException loggerEx)
+            {
+                return RedirectToAction("LoggerError", "Home");
             }
             catch (Exception ex)
             {

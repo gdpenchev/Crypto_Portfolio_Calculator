@@ -9,9 +9,14 @@ namespace CryptoPortfolioCalculator.Controllers
             return View();
         }
 
-        public IActionResult Error(string message)
+        public IActionResult Error()
         {
-            return View("Error", message);
+            return View("Error");
+        }
+
+        public IActionResult LoggerError()
+        {
+            return View("LoggerError");
         }
     }
 }

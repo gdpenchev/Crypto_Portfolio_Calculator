@@ -1,4 +1,6 @@
-﻿namespace CryptoPortfolioCalculator.Services
+﻿using CryptoPortfolioCalculator.CustomErrors;
+
+namespace CryptoPortfolioCalculator.Services
 {
     public class CustomLoggerService : ICustomLoggerService
     {
@@ -14,7 +16,7 @@
 
             if (string.IsNullOrEmpty(logFolder))
             {
-                throw new InvalidOperationException("Log folder not set in session.");
+                throw new LoggerException("Log folder not set in session.");
             }
 
             WriteMessageInLog(logFolder, nameof(ErrorLog), message);
@@ -23,10 +25,10 @@
         public void InfoLog(string message)
         {
             var logFolder = _httpContextAccessor.HttpContext?.Session.GetString("LogFolder");
-
+            
             if (string.IsNullOrEmpty(logFolder))
             {
-                throw new InvalidOperationException("Log folder not set in session.");
+                throw new LoggerException("Log folder not set in session.");
             }
 
             WriteMessageInLog(logFolder, nameof(InfoLog), message);
