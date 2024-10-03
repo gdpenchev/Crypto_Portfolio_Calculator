@@ -2,7 +2,6 @@ using CryptoPortfolioCalculator.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpContextAccessor();
@@ -11,7 +10,6 @@ builder.Services.AddHttpClient<ICoinApiService, CoinApiService>();
 builder.Services.AddScoped<IPortfolioService, PortfolioService>();
 builder.Services.AddScoped<ICustomLoggerService, CustomLoggerService>();
 
-// Add session services.
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {

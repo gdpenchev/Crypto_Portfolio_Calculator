@@ -54,11 +54,11 @@ namespace CryptoPortfolioCalculator.Services
             }
             foreach (var item in portfolioCoins)
             {
-                var coin = coins.FirstOrDefault(c => c.symbol.Equals(item.Name, StringComparison.OrdinalIgnoreCase));
+                var coin = coins.FirstOrDefault(c => c.Symbol.Equals(item.Name, StringComparison.OrdinalIgnoreCase));
 
                 if (coin is not null)
                 {
-                    item.CurrentPrice = coin.price_usd;
+                    item.CurrentPrice = coin.Price;
                 }
 
             }

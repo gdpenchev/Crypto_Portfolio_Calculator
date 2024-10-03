@@ -1,7 +1,10 @@
-﻿namespace CryptoPortfolioCalculator.Models
+﻿using Newtonsoft.Json;
+
+namespace CryptoPortfolioCalculator.Models
 {
     public class CoinResult
     {
-        public List<Coin> data { get; set; }
+        [JsonProperty(PropertyName = "data")]
+        public List<Coin> Data { get; set; }
     }
 }

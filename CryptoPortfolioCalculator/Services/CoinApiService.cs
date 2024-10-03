@@ -26,10 +26,10 @@ namespace CryptoPortfolioCalculator.Services
                     var jsonData = await response.Content.ReadAsStringAsync();
                     var result = JsonConvert.DeserializeObject<CoinResult>(jsonData);
 
-                    if (result?.data != null)
+                    if (result?.Data != null)
                     {
                         _customLoggerService.InfoLog("Coin data is collected from API.");
-                        return result.data;
+                        return result.Data;
                     }
                     _customLoggerService.ErrorLog("Coin data returned from API is empty.");
                 }

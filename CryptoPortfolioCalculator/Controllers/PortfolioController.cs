@@ -3,8 +3,6 @@ using CryptoPortfolioCalculator.Models;
 using CryptoPortfolioCalculator.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using System.Diagnostics;
-using System.Globalization;
 
 namespace CryptoPortfolioCalculator.Controllers
 {

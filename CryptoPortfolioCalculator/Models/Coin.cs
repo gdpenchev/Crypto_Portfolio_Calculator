@@ -1,11 +1,13 @@
-﻿namespace CryptoPortfolioCalculator.Models
+﻿using Newtonsoft.Json;
+
+namespace CryptoPortfolioCalculator.Models
 {
     public class Coin
     {
-        public string name { get; set; }
+        [JsonProperty(PropertyName = "symbol")]
+        public string Symbol { get; set; }
 
-        public string symbol { get; set; }
-
-        public decimal price_usd { get; set; }
+        [JsonProperty(PropertyName = "price_usd")]
+        public decimal Price { get; set; }
     }
 }
