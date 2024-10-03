@@ -1,6 +1,5 @@
 ﻿using CryptoPortfolioCalculator.Models;
 using Newtonsoft.Json;
-using System.Net.Http;
 
 namespace CryptoPortfolioCalculator.Services
 {

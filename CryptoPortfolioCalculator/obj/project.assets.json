@@ -1163,11 +1163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Kashona\\Music\\Crypto_Portfolio_Calculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj",
       "projectName": "CryptoPortfolioCalculator",
-      "projectPath": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj",
+      "projectPath": "C:\\Users\\Kashona\\Music\\Crypto_Portfolio_Calculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator.csproj",
       "packagesPath": "C:\\Users\\Kashona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kashona\\source\\repos\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\CryptoPortfolioCalculator\\obj\\",
+      "outputPath": "C:\\Users\\Kashona\\Music\\Crypto_Portfolio_Calculator\\CryptoPortfolioCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

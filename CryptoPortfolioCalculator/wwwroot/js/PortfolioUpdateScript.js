@@ -1,4 +1,12 @@
 ﻿let intervalId = null
+
+function formatCurrency(value) {
+    if (value < 1) {
+        return '$' + value;
+    } else {
+        return value.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2 });
+    }
+}
 jQuery(document).ready(function () {
 
     let refreshInterval = $('#refresh-interval').val() * 60000;  
@@ -19,8 +27,8 @@ jQuery(document).ready(function () {
                     data.forEach(function (coin) {
 
                         let row = $('tr[data-coin-name="' + coin.name + '"]');
-                        row.find('.current-price').text(coin.currentPrice);  
-                        row.find('.current-value').text(coin.currentValue);  
+                        row.find('.current-price').text(formatCurrency(coin.currentPrice));  
+                        row.find('.current-value').text(formatCurrency(coin.currentValue));  
                         row.find('.percentage-change').text(coin.percentageChange.toFixed(2) + '%');
                         let currentdate = new Date();
                         console.log(currentdate)

@@ -10,10 +10,9 @@
 
         public decimal CurrentPrice { get; set; }
 
-        public decimal InitialValue => Math.Round(Amount * InitialBuyPrice, 2, MidpointRounding.ToEven);
+        public decimal InitialValue => Amount * InitialBuyPrice;
 
-        public decimal CurrentValue => Math.Round(Amount * CurrentPrice, 2, MidpointRounding.ToEven);
-
-        public decimal PercentageChange => Math.Round(((CurrentPrice - InitialBuyPrice) / InitialBuyPrice) * 100, 2, MidpointRounding.ToEven);
+        public decimal CurrentValue => Amount * CurrentPrice;
+        public decimal PercentageChange => Math.Round((CurrentPrice - InitialBuyPrice) / InitialBuyPrice * 100, 2);
     }
 }
