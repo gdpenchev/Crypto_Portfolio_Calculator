@@ -10,7 +10,7 @@
         <label for="UploadedFile">Select Portfolio File (.txt):</label>
         <input type="file" id="UploadedFile" name="file" accept=".txt" class="form-control" />
     </div>
-    @if (HttpContextAccessor.HttpContext?.Session.GetString("LogFolder") == null)
+    @if (HttpContextAccessor.HttpContext?.Session.GetString($"LogFolder_{HttpContextAccessor.HttpContext.Session.Id}") == null)
     {
         <div class="form-group">
             <label for="logFolder">Specify Log Folder:</label>
@@ -19,7 +19,7 @@
     }
     else
     {
-        <p>Logging folder: @HttpContextAccessor.HttpContext.Session.GetString("LogFolder")</p>
+        <p>Logging folder: @HttpContextAccessor.HttpContext.Session.GetString($"LogFolder_{HttpContextAccessor.HttpContext.Session.Id}")</p>
     }
     <button type="submit" class="btn btn-primary">Upload</button>
 </form>

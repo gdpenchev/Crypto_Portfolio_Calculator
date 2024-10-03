@@ -32,7 +32,7 @@ namespace CryptoPortfolioCalculator.Controllers
 
             try
             {
-                if (HttpContext.Session.GetString("LogFolder") is null)
+                if (HttpContext.Session.GetString($"LogFolder_{HttpContext.Session.Id}") is null)
                 {
                     if (!Directory.Exists(logFolder))
                     {
