@@ -13,6 +13,7 @@
         public decimal InitialValue => Amount * InitialBuyPrice;
 
         public decimal CurrentValue => Amount * CurrentPrice;
+
         public decimal PercentageChange => Math.Round((CurrentPrice - InitialBuyPrice) / InitialBuyPrice * 100, 2);
     }
 }

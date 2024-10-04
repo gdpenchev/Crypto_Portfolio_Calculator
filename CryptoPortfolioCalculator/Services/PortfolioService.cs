@@ -6,17 +6,17 @@ namespace CryptoPortfolioCalculator.Services
     public class PortfolioService : IPortfolioService
     {
         private readonly ICoinApiService _coinApiService;
-        private readonly ICustomLoggerService _customLoggerService;
+        private readonly ICustomLoggerService _LoggerService;
 
         public PortfolioService(ICoinApiService coinApiService, ICustomLoggerService customLoggerService)
         {
             _coinApiService = coinApiService;
-            _customLoggerService = customLoggerService;
+            _LoggerService = customLoggerService;
         }
         public async Task<List<PortfolioCoinInfoModel>> GetCoinInputInfoAsync(IFormFile file)
         {
             var portfolioCoins = new List<PortfolioCoinInfoModel>();
-            _customLoggerService.InfoLog("Reading portfolio information from uploaded file.");
+            _LoggerService.InfoLog("Reading portfolio information from uploaded file.");
             using (var reader = new StreamReader(file.OpenReadStream()))
             {
                 while (!reader.EndOfStream)
@@ -38,14 +38,13 @@ namespace CryptoPortfolioCalculator.Services
                         });
                     }
                 }
-                _customLoggerService.InfoLog("Finished reading portfolio information from uploaded file.");
+                _LoggerService.InfoLog("Finished reading portfolio information from uploaded file.");
             }
             return await GetUpdatedCoinPriceInfoAsync(portfolioCoins);
         }
 
         public async Task<List<PortfolioCoinInfoModel>> GetUpdatedCoinPriceInfoAsync(List<PortfolioCoinInfoModel> portfolioCoins)
         {
-            _customLoggerService.InfoLog("Fetching coin data from API.");
             var coins = await _coinApiService.GetCoinDataAsync();
 
             if (coins is null || coins.Count == 0)

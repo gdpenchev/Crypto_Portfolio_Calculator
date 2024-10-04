@@ -11,7 +11,7 @@ jQuery(document).ready(function () {
 
     let refreshInterval = $('#refresh-interval').val() * 60000;  
     // Function that periodically fetches updates from the server and reflect new values to the current price,
-    // the current value and percentage change
+    // the current value and percentage change.
     function fetchPortfolioUpdates() {
 
         if (intervalId !== null) {
@@ -30,8 +30,6 @@ jQuery(document).ready(function () {
                         row.find('.current-price').text(formatCurrency(coin.currentPrice));  
                         row.find('.current-value').text(formatCurrency(coin.currentValue));  
                         row.find('.percentage-change').text(coin.percentageChange.toFixed(2) + '%');
-                        let currentdate = new Date();
-                        console.log(currentdate)
                     });
                 },
                 error: function (error) {

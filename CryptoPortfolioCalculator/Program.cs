@@ -8,7 +8,7 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddHttpClient<ICoinApiService, CoinApiService>();
 builder.Services.AddScoped<IPortfolioService, PortfolioService>();
-builder.Services.AddScoped<ICustomLoggerService, CustomLoggerService>();
+builder.Services.AddSingleton<ICustomLoggerService, CustomLoggerService>();
 
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>

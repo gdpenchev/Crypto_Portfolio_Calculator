@@ -32,21 +32,13 @@ namespace CryptoPortfolioCalculator.Controllers
 
             try
             {
-                if (HttpContext.Session.GetString($"LogFolder_{HttpContext.Session.Id}") is null)
-                {
-                    if (!Directory.Exists(logFolder))
-                    {
-                        Directory.CreateDirectory(logFolder);
-
-                    }
-                    HttpContext.Session.SetString($"LogFolder_{HttpContext.Session.Id}", logFolder);
-                    _loggerService.InfoLog("Log folder set by the user.");
-                }
+                SetLogFolder(logFolder);
 
                 var portfolioCoins = await _portfolioService.GetCoinInputInfoAsync(file);
 
                 if (portfolioCoins is null || portfolioCoins.Count == 0)
                 {
+                    _loggerService.ErrorLog("Portfolio with coins is empty.");
                     return RedirectToAction("Error", "Home");
                 }
                 var sesvalue = JsonConvert.SerializeObject(portfolioCoins);
@@ -85,6 +77,7 @@ namespace CryptoPortfolioCalculator.Controllers
 
                 if (updatedPortfolio is null || updatedPortfolio.Count == 0)
                 {
+                    _loggerService.ErrorLog("Portfolio with coins is empty during update of the portfolio.");
                     return RedirectToAction("Error", "Home");
                 }
 
@@ -93,6 +86,20 @@ namespace CryptoPortfolioCalculator.Controllers
             catch (Exception)
             {
                 return RedirectToAction("Error", "Home");
+            }
+        }
+
+        private void SetLogFolder(string logFolder)
+        {
+            if (HttpContext.Session.GetString($"LogFolder_{HttpContext.Session.Id}") is null)
+            {
+                if (!Directory.Exists(logFolder))
+                {
+                    Directory.CreateDirectory(logFolder);
+
+                }
+                HttpContext.Session.SetString($"LogFolder_{HttpContext.Session.Id}", logFolder);
+                _loggerService.InfoLog("Log folder set by the user.");
             }
         }
     }

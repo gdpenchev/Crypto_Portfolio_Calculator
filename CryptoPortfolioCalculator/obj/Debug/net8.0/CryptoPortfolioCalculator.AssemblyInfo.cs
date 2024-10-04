@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoPortfolioCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b79eb12983c95b47717d373a14bcc5f2004114a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c808e94199b837113aed889bfb3ed54ff0c9a0cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoPortfolioCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoPortfolioCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
