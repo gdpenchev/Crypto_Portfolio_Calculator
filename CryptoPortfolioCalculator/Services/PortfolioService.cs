@@ -21,21 +21,29 @@ namespace CryptoPortfolioCalculator.Services
             {
                 while (!reader.EndOfStream)
                 {
-                    var line = reader.ReadLine();
-                    var columns = line?.Split('|');
-
-                    if (columns?.Length == 3)
+                    try
                     {
-                        var amount = decimal.Parse(columns[0], NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture);
-                        var coinName = columns[1];
-                        var initialBuyPrice = decimal.Parse(columns[2], NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture);
+                        var line = reader.ReadLine();
+                        var columns = line?.Split('|');
 
-                        portfolioCoins.Add(new PortfolioCoinInfoModel
+                        if (columns?.Length == 3)
                         {
-                            Amount = amount,
-                            Name = coinName,
-                            InitialBuyPrice = initialBuyPrice
-                        });
+                            var amount = decimal.Parse(columns[0], NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture);
+                            var coinName = columns[1];
+                            var initialBuyPrice = decimal.Parse(columns[2], NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture);
+
+                            portfolioCoins.Add(new PortfolioCoinInfoModel
+                            {
+                                Amount = amount,
+                                Name = coinName,
+                                InitialBuyPrice = initialBuyPrice
+                            });
+                        }
+                    }
+                    catch (InvalidDataException ex)
+                    {
+                        _LoggerService.ErrorLog("There was a problem with the readng of the file. Please check the format");
+                        throw new InvalidDataException();
                     }
                 }
                 _LoggerService.InfoLog("Finished reading portfolio information from uploaded file.");

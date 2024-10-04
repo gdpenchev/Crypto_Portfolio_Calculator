@@ -25,14 +25,15 @@ namespace CryptoPortfolioCalculator.Controllers
         [HttpPost]
         public async Task<IActionResult> UploadFile(IFormFile file, string logFolder)
         {
-            if (file is null || file.Length == 0)
-            {
-                return View("Error", "Please upload a valid file.");
-            }
-
             try
             {
                 SetLogFolder(logFolder);
+
+                if (file is null || file.Length == 0)
+                {
+                    _loggerService.ErrorLog("File uploaded is empty or in a wrong format");
+                    return RedirectToAction("Error", "Home");
+                }
 
                 var portfolioCoins = await _portfolioService.GetCoinInputInfoAsync(file);
 
@@ -60,16 +61,17 @@ namespace CryptoPortfolioCalculator.Controllers
         [HttpGet]
         public async Task<IActionResult> GetUpdatedPortfolio()
         {
-            _loggerService.InfoLog("Start updating portfolio with latest info");
-            var portfolio = HttpContext.Session.GetString($"porfolio_{HttpContext.Session.Id}");
-
-            if (portfolio is null)
-            {
-                return RedirectToAction("Error", "Home");
-            }
-
             try
             {
+                _loggerService.InfoLog("Start updating portfolio with latest info");
+                var portfolio = HttpContext.Session.GetString($"porfolio_{HttpContext.Session.Id}");
+
+                if (portfolio is null)
+                {
+                    _loggerService.ErrorLog("Portfolio returned empty and we could begin updating the new values");
+                    return RedirectToAction("Error", "Home");
+                }
+
                 var serializedPortfolio = JsonConvert.DeserializeObject<List<PortfolioCoinInfoModel>>(portfolio);
 
                 _loggerService.InfoLog("Getting latest coin information from API.");
